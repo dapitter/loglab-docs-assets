@@ -1,8 +1,15 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>MoveMT App x Web</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
 <style>
+html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+
 /* Layout: cabeçalho institucional + abas como "slides" (Visão geral, App, Web, Ponte, Fluxo, Lista) sobre fundo frio */
 :root{
   --bg:#f4f6fa; --surface:#ffffff; --surface2:#eef2f8; --line:#d9e0ec; --fg:#14213a; --muted:#5a6780;
@@ -118,6 +125,9 @@ td.id a{font-variant-numeric:tabular-nums;font-weight:600}
 footer{color:var(--muted);font-size:12.5px}
 @media (prefers-reduced-motion:no-preference){.shot img{transition:transform .2s}.shot:hover img{transform:translateY(-3px)}}
 </style>
+</head>
+<body>
+
 
 <header class="top">
   <div class="wrap">
@@ -326,3 +336,6 @@ function show(){
 }
 window.addEventListener("hashchange",()=>{show();window.scrollTo({top:0})}); show();
 </script>
+
+</body>
+</html>
